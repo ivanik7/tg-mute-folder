@@ -1,0 +1,20 @@
+{
+  "name": "tg-mute-folder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "auth": "node auth.js",
+    "start": "node index.js",
+  },
+  "keywords": [],
+  "author": "",
+  "license": "WTFPL",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "input": "^1.0.1",
+    "luxon": "^3.2.1",
+    "telegram": "^2.15.10"
+  },
+  "type": "module"
+}
